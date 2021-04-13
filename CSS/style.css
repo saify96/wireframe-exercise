@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
+
 header {
+    text-align: center;
     background-color: rgba(68,68,68,255);
     padding: 20px;
     height: 100px;
@@ -10,7 +12,11 @@ header {
 
 header div {
     position:relative;
-    margin-left: 170px;
+    top: auto;
+
+    left: 13%;
+    right: 13%;
+    /* margin-left: 170px; */
     height: 100px;
     width: 960px;
 }
@@ -19,17 +25,16 @@ header img {
     float: left;
 }
 
-header nav  {
-    /* margin-left: 30px; */
-    display: inline-block;
-}
-
 header nav ul li {
+    float: left;
     padding: 20px;
-    clear: both;  
-    margin-left: 100px;
+    /* clear: both;   */
+    margin-left: 10%;
     display: inline-block;
     color :rgba(117,117,117,255);
+}
+body{
+    text-align: center;
 }
 
 main section:first-child {
@@ -41,15 +46,13 @@ main section:nth-child(2){
 }
 
 main section:nth-child(2) img{
-    margin: 15px;
+    margin: 13px;
 }
 
 
 main section:last-child{
-
     display: inline-block;
     width: 960px;
-    margin-left: 15%;
     margin-bottom : 20px ;
     
 }
